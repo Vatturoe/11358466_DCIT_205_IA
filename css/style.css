@@ -88,7 +88,7 @@ img {
 }
 
 .showcase-content p {
-    color:#fff;
+    color:#f6f5f7;
     padding: 0.5rem;
     line-height: 1.5;
 }
@@ -207,7 +207,7 @@ img {
         background: var(--color-primary);
         color: #fff;
         font-size: 0.8rem;
-        text-align: centers;
+        text-align: center;
         border: none;
         cursor: pointer;
         margin: 10px 15px;
@@ -217,7 +217,6 @@ img {
         text-transform: uppercase;
     }
 }
-
 
 
 
