@@ -44,9 +44,21 @@ img {
     background: url('../img/main-bkg.jpg') no-repeat center center/cover;
 }
 
+.showcase:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.45);
+}
+
 .showcase-top{
     position: relative;
     height: 90px;
+    z-index: 2;
 }
 
 .showcase-content {
@@ -58,6 +70,7 @@ img {
     align-items: center;
     text-align: center;
     margin-top: 9rem;
+    z-index: 2;
 }
 
 .showcase-content .container {
@@ -71,12 +84,15 @@ img {
 }
 
 .showcase-content ul {
-    margin-top: 15rem;
+    margin-top: 2rem;
 }
 
 .showcase-content p {
+    color:#fff;
     padding: 0.5rem;
+    line-height: 1.5;
 }
+
 .showcase-top #highlight {
     color: var(--color-primary);
 }
@@ -138,7 +154,69 @@ img {
     opacity: 0.9;
 }
 
+@media (max-width: 550px) {
+    .showcase-top h1 {
+        font-size: 25px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
+    .showcase-top .right-b {
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        transform: translate(-50%, -50%);
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    .showcase-content h2 {
+        font-weight: 500;
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+
+    .showcase-content p {
+        color:#fff;
+        padding: 0.5rem;
+        line-height: 1.3;
+    }
+
+    .btn-min {
+        display: flex;
+        background: var(--color-primary);
+        color: #fff;
+        padding: .7rem auto;
+        font-size: 0.8rem;
+        border: none;
+        cursor: pointer;
+        margin: 10px 15px;
+        outline: none;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+        border-radius: 20px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+@media (max-width: 630px) {
+    .btn-min {
+        display: flex;
+        background: var(--color-primary);
+        color: #fff;
+        font-size: 0.8rem;
+        text-align: centers;
+        border: none;
+        cursor: pointer;
+        margin: 10px 15px;
+        outline: none;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+        border-radius: 20px;
+        text-transform: uppercase;
+    }
+}
 
 
 
