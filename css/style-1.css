@@ -176,3 +176,71 @@ button:hover {
     text-decoration-color: #0066bb;
     color: #6d6e6e;
 }
+
+@media (max-width: 700px) {
+    .rmore ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .rmore ul li {
+        font-size: 15px;
+        margin: auto 5px;
+        margin-top: 7px;
+        text-transform: uppercase;
+        text-decoration-line: underline;
+        text-decoration-color: #0066bb;
+        color: #6d6e6e;
+    }
+}
+
+.min-container {
+    background-color: #0066bb;
+    color:#fff;
+    height: auto;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 700px){
+    .min-container {
+        border-radius: 0;
+    }
+}
+
+.min-container .intro-section {
+    margin: 10px 5px;
+    padding: 20px 10px;
+}
+
+.intro-section h1, p {
+    text-align: center;
+}
+
+.min-one-container {
+    color:#6d6e6e;
+    height: auto;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.min-one-container .desc-one {
+    margin: 10px 5px;
+    padding: 20px 10px;
+}
+
+.desc-one h1, h2, p {
+    text-align: center;
+}
+
+.desc-one h1, h2{
+    color: #0066bb;
+}
