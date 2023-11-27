@@ -16,3 +16,8 @@ Name: Henry Amponsah; Student_ID: 11358466;
 Development of my learning and problem solving skills through research and evaluation processes taken so far in this project.
 
 ## Screenshots of project
+![homepagescreen](Screenshots/127.0.0.1_5500_index.html.png)
+![about-us-page](Screenshots/127.0.0.1_5500_about-us.html.png)
+![academics-page](Screenshots/127.0.0.1_5500_academics.html.png)
+![sign-up-page](Screenshots/127.0.0.1_5500_sign-up.html.png)
+![contact-us-page](Screenshots/127.0.0.1_5500_contact-us.html.png)
